@@ -76,5 +76,7 @@ margin: 0 auto;
 }
 
 .parametro-coluna__senha{
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
