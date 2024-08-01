@@ -25,7 +25,13 @@ function aumentaTamanho(){
 
 const campoSenha = document.querySelector( '#campo-senha');
 
-const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVXYZ';
+const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+const letrasMinusculas = 'abcdefghijklmnopqrstuvwxyz';
+const numeros = '0123456789';
+const simbolos = '!@%?*';
+
+geraSenha();
+
 
 function geraSenha(){
     let senha = '';
